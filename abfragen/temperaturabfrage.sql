@@ -1,5 +1,3 @@
-.mode table
-
 SELECT
     MIN(tempwert) as "Maximal Temperatur",
     MAX(tempwert) as "Minimal Temperatur",

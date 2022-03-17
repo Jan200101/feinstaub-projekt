@@ -1,5 +1,3 @@
-.mode table
-
 SELECT
 	strftime("%Y-%m-%d", datetime) as short_date,
 	MIN(tempwert),
