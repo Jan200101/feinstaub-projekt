@@ -46,4 +46,4 @@ def download_days(number_of_days):
             save(data, f'data/{typ}/{current_date}_{sensor}.csv')
 
 if __name__ == '__main__':
-    download_days(365)
+    download_days(400)

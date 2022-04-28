@@ -4,5 +4,4 @@ SELECT
     AVG(tempwert) as "Durschnittstemperatur"
 FROM temperaturUndLuftdruck
 WHERE
-    strftime('%m.%d', datetime) = '03.14' AND
-    strftime('%Y', datetime) = strftime('%Y', DATE('NOW', '-1 year'));
+    strftime('%m.%d.%Y', datetime) = '03.14.2021'

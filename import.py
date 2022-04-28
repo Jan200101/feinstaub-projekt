@@ -52,7 +52,7 @@ def main():
         VALUE_PLACEHOLDER = ", ".join([":{}".format(key) for key in mapping.keys()])
 
         QUERY = """
-INSERT OR IGNORE
+INSERT 
 INTO {0}({1})
 VALUES ({2})    
 """.format(table, TABLE_PLACEHOLDERS, VALUE_PLACEHOLDER)

@@ -4,6 +4,6 @@ SELECT
 	MAX(tempwert),
 	AVG(tempwert)
 FROM temperaturUndLuftdruck
-GROUP BY short_date
-ORDER BY short_date DESC
+GROUP BY tempwert
+ORDER BY tempwert DESC
 LIMIT 10;
